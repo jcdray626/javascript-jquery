@@ -1,0 +1,68 @@
+body{
+	background-color: #ab0f0f;
+
+}
+
+h1{
+	text-align: center;
+	font-family: Helvetica;
+	color: #ffffff;}
+
+p{
+	color: #ffffff;
+}
+
+#header {
+	margin: 30px auto;
+
+}
+#gridSpecs {
+	width: 640px;
+	margin: auto;
+}
+#specs {
+display:inline-block;
+}
+#placeGrid {
+	position: relative;
+	display: inline-block;
+}
+.options {
+	display: inline-block;
+}
+
+#reset {
+display: inline-block;
+}
+#container{
+	width: 640px;
+	height: 640px;
+	background-color: black;
+	margin: 60px auto;
+}
+
+.pixel {
+background-color: white;
+float:left;
+overflow:hidden;
+}
+.padding{
+	padding: 1px;
+}
+.borders{
+border: solid black 1px;
+padding:none;
+}
+
+.selected {
+	background-color: black;
+	transition:none;
+}
+
+.fadeout {
+	transition:background-color 1s ease;
+}
+
+.highlighted {
+	background-color: yellow;
+}
